@@ -1,23 +1,24 @@
 .hero {
   height: 100vh;
-  background: #000;
-  background:
-    linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)),
-    url("https://themewagon.github.io/feane/images/hero-bg.jpg") center/cover
-      no-repeat;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)),
+    url("https://themewagon.github.io/feane/images/hero-bg.jpg") center/cover no-repeat;
   font-family: "Dancing Script", cursive;
 }
 
 .bg-color {
-  background: #000;
-background: linear-gradient(76deg, rgba(0, 0, 0, 1) 0%, rgba(77, 76, 76, 1) 65%, rgba(79, 79, 79, 0.98) 100%);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)),
+    url("") center/cover no-repeat;
+  font-family: "Dancing Script", cursive;
 }
+
 .navbar-nav .nav-link.active {
   color: #f4b400 !important;
 }
-.itlic {
-  font-family: "italic", cursive;
+
+.title-font {
+  font-family: "Dancing Script", cursive;
 }
+
 .offer-img {
   width: 140px;
   height: 140px;
@@ -26,14 +27,15 @@ background: linear-gradient(76deg, rgba(0, 0, 0, 1) 0%, rgba(77, 76, 76, 1) 65%,
   object-fit: cover;
 }
 
-.title-font {
-  font-family: "italic", cursive;
-}
-
 .menu-card {
   border: none;
   border-radius: 20px;
   overflow: hidden;
+  transition: 0.3s;
+}
+
+.menu-card:hover {
+  transform: translateY(-8px);
 }
 
 .menu-top {
@@ -48,35 +50,81 @@ background: linear-gradient(76deg, rgba(0, 0, 0, 1) 0%, rgba(77, 76, 76, 1) 65%,
 }
 
 .menu-bottom {
-  text-align: start;
   background: #222831;
-  color: white;
+  color: #fff;
   padding: 20px;
-}
-
-.menu-card:hover {
-  transform: translateY(-8px);
-  transition: 0.3s;
+  text-align: start;
 }
 
 .about {
   background: #222831;
 }
 
-.about-img {
-  max-width: 80%;
+.about img {
+  margin-top: 50px;
+  max-width: 70%;
+  padding: 10px;
   transition: 0.3s;
 }
 
-.about-img:hover {
+.about img:hover {
   transform: scale(1.05);
 }
+
 .book input,
 .book select {
   padding: 15px;
-  border-radius: 8px;
+  border-radius: 10px;
+}
+
+.book input:focus,
+.book select:focus {
+  box-shadow: none;
+  border-color: #f4b400;
 }
 
 .book button {
   width: fit-content;
+}
+
+.testimonial-box {
+  background: #222831;
+  color: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.testimonial-img {
+  margin-top: 20px;
+}
+
+.testimonial-img img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 5px solid #f4b400;
+  object-fit: cover;
+}
+
+.footer {
+  background: #222831;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  color: #222831;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.social-icon:hover {
+  background: #f4b400;
+  color: #fff;
 }
