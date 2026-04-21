@@ -1,15 +1,21 @@
-
 .hero {
   height: 100vh;
-  background: linear-gradient(to right, rgba(0,0,0,0.9), rgba(0,0,0,0.3)), url('https://themewagon.github.io/feane/images/hero-bg.jpg') center/cover no-repeat;
-  font-family: 'Dancing Script', cursive;
+  background: #000;
+  background:
+    linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)),
+    url("https://themewagon.github.io/feane/images/hero-bg.jpg") center/cover
+      no-repeat;
+  font-family: "Dancing Script", cursive;
 }
 
-
+.bg-color {
+  background: #000;
+background: linear-gradient(76deg, rgba(0, 0, 0, 1) 0%, rgba(77, 76, 76, 1) 65%, rgba(79, 79, 79, 0.98) 100%);
+}
 .navbar-nav .nav-link.active {
   color: #f4b400 !important;
 }
-.itlic{
+.itlic {
   font-family: "italic", cursive;
 }
 .offer-img {
@@ -51,7 +57,6 @@
 .menu-card:hover {
   transform: translateY(-8px);
   transition: 0.3s;
-  
 }
 
 .about {
@@ -65,4 +70,13 @@
 
 .about-img:hover {
   transform: scale(1.05);
+}
+.book input,
+.book select {
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.book button {
+  width: fit-content;
 }
