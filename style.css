@@ -1,12 +1,17 @@
+
 .hero {
   height: 100vh;
   background: linear-gradient(to right, rgba(0,0,0,0.9), rgba(0,0,0,0.3)), url('https://themewagon.github.io/feane/images/hero-bg.jpg') center/cover no-repeat;
+  font-family: 'Dancing Script', cursive;
 }
+
 
 .navbar-nav .nav-link.active {
   color: #f4b400 !important;
 }
-
+.itlic{
+  font-family: "italic", cursive;
+}
 .offer-img {
   width: 140px;
   height: 140px;
@@ -16,7 +21,7 @@
 }
 
 .title-font {
-  font-family: cursive;
+  font-family: "italic", cursive;
 }
 
 .menu-card {
@@ -37,6 +42,7 @@
 }
 
 .menu-bottom {
+  text-align: start;
   background: #222831;
   color: white;
   padding: 20px;
@@ -45,6 +51,7 @@
 .menu-card:hover {
   transform: translateY(-8px);
   transition: 0.3s;
+  
 }
 
 .about {
