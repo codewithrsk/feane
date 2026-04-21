@@ -1,0 +1,61 @@
+.hero {
+  height: 100vh;
+  background: linear-gradient(to right, rgba(0,0,0,0.9), rgba(0,0,0,0.3)), url('https://themewagon.github.io/feane/images/hero-bg.jpg') center/cover no-repeat;
+}
+
+.navbar-nav .nav-link.active {
+  color: #f4b400 !important;
+}
+
+.offer-img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 5px solid #f4b400;
+  object-fit: cover;
+}
+
+.title-font {
+  font-family: cursive;
+}
+
+.menu-card {
+  border: none;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.menu-top {
+  background: #f1f2f3;
+  text-align: center;
+  padding: 30px;
+  border-bottom-left-radius: 40px;
+}
+
+.menu-top img {
+  height: 120px;
+}
+
+.menu-bottom {
+  background: #222831;
+  color: white;
+  padding: 20px;
+}
+
+.menu-card:hover {
+  transform: translateY(-8px);
+  transition: 0.3s;
+}
+
+.about {
+  background: #222831;
+}
+
+.about-img {
+  max-width: 80%;
+  transition: 0.3s;
+}
+
+.about-img:hover {
+  transform: scale(1.05);
+}
